@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hunt for Bootstrap</title>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <style>
+        body, html {
+            height: 100%;
+            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        @media (min-width: 500px){
+
+            .jumbotron {
+                padding: 1rem 2rem;
+                border: black;
+                border-width: 1rem;
+            }}
+        /*p {*/
+            /*color: white;*/
+            /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+        /*}*/
+    </style>
+</head>
+
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+<h3>Hunt For Bootstrap</h3>
+<p>BootStrap is a useful tool, provided by Twitter, to help make your websites look attractive and professional.
+    It provides a Library of base text to create complicated layouts, and a database of Information to pull from and help your
+    page function without needing to host them yourselves.  In order to operate bootstrap you simply need to copy and paste several
+    links (that they provide,) inorder to enable your individual page to pull from their database.  Then by browsing their website and
+    and applying their example code to your own project, you can greatly enhance the look of any website.  If you continue  to explore this
+    site you will find many examples of bootstrap supplied layouts such as NavBars, Jumbotrons, cards and Buttons.  See if you can Find them All!</p>
+
+<h5>By D.Green</h5>
+</div>
+</div>
+
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

@@ -17,4 +17,16 @@ public class HomeController {
     @RequestMapping("/AboutUs")
     public String aboutUs(){return "AboutUs";}
 
+    @RequestMapping("/ProgramDesign")
+    public String programDesign(){return "ProgramDesign";}
+
+    @RequestMapping("/HTML")
+    public String hTML(){return "HTML";}
+
+    @RequestMapping("/Algorithms")
+    public String algorithms(){return "Algorithms";}
+
+    @RequestMapping("/HFBootstrap")
+    public String hFBootstrap(){return "HFBootstrap";}
+
 }
