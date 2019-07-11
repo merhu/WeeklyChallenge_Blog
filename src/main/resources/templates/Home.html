@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+
+    <style>
+        body, html {
+            height: 100%;
+            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562856288/Blog%20Project/ee6_5JNH96A0_cugtyc.gif");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<th:block th:replace="/Base :: navbar">...</th:block>
+</div>
+
+<div class="container">
+    <br/><br/>
+    <h2>HomePage!</h2>
+    <div class="jumbotron">
+        <h4>Post Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem expedita molestias possimus tempore. A amet asperiores blanditiis consequatur consequuntur, cum delectus dolor dolorem eius fuga nam rem sit voluptatum?</p>
+        <a href="#">Find out more...</a>
+    </div>
+    <div class="jumbotron">
+        <h4>Post Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem expedita molestias possimus tempore. A amet asperiores blanditiis consequatur consequuntur, cum delectus dolor dolorem eius fuga nam rem sit voluptatum?</p>
+        <a href="#">Find out more...</a>
+    </div>
+    <div class="jumbotron">
+        <h4>Post Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem expedita molestias possimus tempore. A amet asperiores blanditiis consequatur consequuntur, cum delectus dolor dolorem eius fuga nam rem sit voluptatum?</p>
+        <a href="#">Find out more...</a>
+    </div>
+    <div class="jumbotron">
+        <h4>Post Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem expedita molestias possimus tempore. A amet asperiores blanditiis consequatur consequuntur, cum delectus dolor dolorem eius fuga nam rem sit voluptatum?</p>
+        <a href="#">Find out more...</a>
+    </div>
+</div>
+
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>
