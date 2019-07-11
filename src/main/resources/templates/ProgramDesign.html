@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Program Design</title>
+    <title>Hunt for Bootstrap</title>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <style>
+        body, html {
+            height: 100%;
+            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        @media (min-width: 500px){
+
+            .jumbotron {
+                padding: 1rem 2rem;
+                border: black;
+                border-width: 1rem;
+            }}
+    </style>
 </head>
+
 <body>
-Words
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+        <h3>Program Design</h3>
+        <br/><br/>
+        <h4>Define the problem to be solved.</h4>
+
+        <p>The first step to designing a program is defining the problem that needs to be solved.
+        What type of inputs need to be considered?  How to they need to be processed before outputting?
+        Creating clear definitions of your goal will simplify the rest of the process, and prevent you
+            from straying to far from the purpose of your program.</p>
+
+        <h4>Outline your solution on paper.</h4>
+
+        <p>It can often help to draw out an outline on paper before you begin typing. Creating a diagram showcasing
+        what types of calculations or transformations your program will need to do(putting the definitions you worked
+            on earlier into practice).</p>
+
+        <h4>Develop the outline into an algorithm.</h4>
+
+        <p>Next refine your outline into strict steps, you don't want your program to do more than your goal.  There is more information
+            on algorithms in other posts.</p>
+
+
+        <h4>Test the algorithm for correctness.</h4>
+
+        <p>Test your algorithms relentlessly.  Try as many different types of inputs as you can, you don't want a user to come up with
+        something you didn't expect and break your program. Are errors accounted for?  Will the program break or cycle endlessly, prompt a message
+            or simply give the wrong results.</p>
+
+        <h4>Document your solution.</h4>
+
+       <p> It is often a good idea to document and comment all your work.  In the future you may forget why you did something,
+        or someone else might be using your code and need to make changes.  It also helps you keep a record of all your
+        progress as a programmer, giving you a library of examples to refer back to alter when working on future projects.</p>
+        <br/>
+        <img src="https://res-console.cloudinary.com/dv2nrlkn5/thumbnails/transform/v1/image/upload//v1562873159/QmxvZyBQcm9qZWN0L2lvcF9kYWpkejI=/drilldown" alt="IOP">
+        <h5>By D.Green</h5>
+    </div>
+</div>
+
+<th:block th:replace="/Base :: bootstrap">...</th:block>
 </body>
 </html>
