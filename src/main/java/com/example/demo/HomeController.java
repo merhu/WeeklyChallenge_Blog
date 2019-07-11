@@ -28,4 +28,7 @@ public class HomeController {
     @RequestMapping("/HFBootstrap")
     public String hFBootstrap(){return "HFBootstrap";}
 
+    @RequestMapping("/Encapsulation")
+    public String encapsulation(){return "Encapsulation";}
+
 }
