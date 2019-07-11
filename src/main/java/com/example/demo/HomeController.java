@@ -8,27 +8,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping("/")
-        public String home(){return "Home";}
+    public String home() {
+        return "Home";
+    }
 
     @RequestMapping("/Base")
-     public String base(){return "Base";}
+    public String base() {
+        return "Base";
+    }
 
     @RequestMapping("/AboutUs")
-    public String aboutUs(){return "AboutUs";}
+    public String aboutUs() {
+        return "AboutUs";
+    }
 
     @RequestMapping("/ProgramDesign")
-    public String programDesign(){return "ProgramDesign";}
+    public String programDesign() {
+        return "ProgramDesign";
+    }
 
     @RequestMapping("/HTML")
-    public String hTML(){return "HTML";}
+    public String hTML() {
+        return "HTML";
+    }
 
     @RequestMapping("/Algorithms")
-    public String algorithms(){return "Algorithms";}
+    public String algorithms() {
+        return "Algorithms";
+    }
 
     @RequestMapping("/HFBootstrap")
-    public String hFBootstrap(){return "HFBootstrap";}
+    public String hFBootstrap() {
+        return "HFBootstrap";
+    }
 
     @RequestMapping("/Encapsulation")
-    public String encapsulation(){return "Encapsulation";}
+    public String encapsulation() {
+        return "Encapsulation";
+    }
 
 }
