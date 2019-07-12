@@ -47,4 +47,30 @@ public class HomeController {
         return "Encapsulation";
     }
 
+    @RequestMapping("/CoreJava")
+    public String coreJava() {
+        return "CoreJava";
+    }
+    @RequestMapping("/Github")
+    public String github() {
+        return "GitHub";
+    }
+    @RequestMapping("/Hub")
+    public String hub() {
+        return "Hub";
+    }
+    @RequestMapping("/JavaEE")
+    public String javaEE() {
+        return "JavaEE";
+    }
+    @RequestMapping("/Polymorphism")
+    public String polymorphism() {
+        return "Polymorphism";
+    }
+
+    @RequestMapping("/Profiles")
+    public String profiles() {
+        return "Profiles";
+    }
+
 }

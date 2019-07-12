@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-
+<html lang="en" xmlns:th="http:www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
     <th:block th:replace="/Base :: MetaLinks">...</th:block>
-
-
-    <style>
-        body, html {
-            height: 100%;
-            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
-            background-position: center;
-            background-repeat: repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-    </style>
-
+    <title>Java Web Developer Boot Camp</title>
 
 </head>
-
 <body>
 <th:block th:replace="/Base :: navbar">...</th:block>
-
-<h1>SUPER AWESOME WEBPAGE</h1>
-
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+<h1 align="center"> About the Java Boot-Camp </h1>
+<h3>WHAT IS THE PROGRAM?</h3>
+<p>The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F) 8-week, immersive software engineering program
+    funded by the Department of Labor. This course aims to increase the number of skilled software developers in this
+    country. We do this by accepting qualified candidates who cannot afford the cost of a coding boot camp. If accepted
+    into the program all fees will be covered by the program.</p>
+<h3> What you will Learn. </h3>
+<p>You'll learn to create web pages. You'll use frameworks and stored procedures. You'll connect to a database using the Java Persistence API(JPA) and Hibernate, and most importantly, all assignments are submitted through git, so you will learn to develop using best practices in class, to make it easy to contribute value when you are on the job.</p>
 <th:block th:replace="/Base :: bootstrap">...</th:block>
+    </div>
+</div>
 </body>
 </html>

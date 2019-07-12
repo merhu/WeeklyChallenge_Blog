@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Nanum+Gothic&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>How to make a Website </title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <style>
+        body{
+            align-content: center;
+            background-image: url("https://res.cloudinary.com/dgogsuupz/image/upload/v1562877783/Untitled_design_1_cv6w3e.png");
+        }
+    </style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+<h1 align="center">Meet the Bloggers! </h1>
+<br>
+<!-- Info about the bloggers-->
+<div class="container">
+    <div align="center" class="row justify-content-center">
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://res-console.cloudinary.com/dv2nrlkn5/thumbnails/transform/v1/image/upload//v1562940181/QmxvZyBQcm9qZWN0LzE0OTAwNDAyXzEwMTU0NjYyOTgwNjAxNTYzXzU0MTkwMzE5Nzg0MzU0MjA1MDdfbi5qcGdfcmV3N2dw/drilldown" alt="Daniel's pic">
+                <div class="card-body">
+                    <h4 class="card-title">Daniel Green</h4>
+                    <p class="card-text">Student of Java Boot camp sharing stellar insight with all involved.</p>
+                    <a href="https://www.linkedin.com/" class="fa fa-linkedin"> Linkedin </a>
+                    <br>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"> Facebook </a>
+                    <br>
+                    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"> Twitter </a>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,h_167,q_100,w_135/v1562936154/IMG_0313_vh9axm.jpg" alt="Merhawit's pic">
+                <div class="card-body">
+                    <h4 class="card-title"> Merhawit Gezahegn</h4>
+                    <p class="card-text">IT experience in all phases of Software Development Life Cycle (SDLC) such as Planning, Analysis,
+                        Design, Implementation, Testing and Maintenance of Web Based Programming. I have joined the Java Boot-camp Blog to share my knowledge and also learn from other professionals.</p>
+                    <a href="https://www.linkedin.com/in/merhawit-gezahegn-77676798/" class="fa fa-linkedin"> Linkedin </a>
+                    <br>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"> Facebook </a>
+                    <br>
+                    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"> Twitter </a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

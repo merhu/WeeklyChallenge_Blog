@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <title>What is GitHub</title>
+    <style>body, html {
+        height: 100%;
+        background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }</style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+        <h3>The "Hub" in GitHub</h3>
+        <date> July 11, 2019 </date>
+        <p class="lead"> GitHub is a web-based Git Repository hosting service that offers all of the distributed revision control
+            and source code management functionality of Git.At the heart of GitHub Git.  Git is responsible for everything
+            GitHub-related that happens locally on your computer.Git is a command-line tool, but the center around which all things involving Git revolve is the Hub.
+            it is where developers store their projects and are able to network. </p>
+        <p> Here are somethings you can do on GitHub... </p>
+        <ul>
+            <li> <b>Repository</b></li>
+            <p> A repository is a location where all the files for a particular project are stored.
+                each new projects has its own repository. </p>
+            <img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,w_528/v1562873078/github_v2ilnl.png">
+            <li><b>Forking a Repository</b></li>
+            <p>Creating a fork is producing a personal copy of someone's project. forking repository
+                allows you to freely experiment with changes without affecting the original project.  </p>
+            <img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,w_450/v1562871640/git-fork-clone_nkdu2m.png">
+            <li> <b> Pull Requests </b></li>
+            <p> Pull requests let you tell others about changes you've pushed to a GitHub repository.
+                Once a pull request is sent, interested parties can review the changes made. </p>
+            <img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,w_600/v1562871691/1_ubVyD2GaOAlSfqRNbL0Bjg_ierq04.png">
+        </ul>
+        <hr class="my-3">
+    </div>
+</div>
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

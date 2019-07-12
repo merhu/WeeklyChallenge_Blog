@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <title>CoreJava</title>
+
+    <style>body, html {
+        height: 100%;
+        background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }</style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+        <h3>CoreJava</h3>
+        <date><i>July 11, 2019 </i></date>
+        <p class="lead"> Java is an object-oriented programming language.
+            Java programs are compiled to bytecode which can run on any Java virtual machine, JVM.
+            Java aims to allow the programmer to write once, run anywhere. In theory you should be able to run the same Java program
+            on a linux machine as a Windows machine. This is mostly true but some implementation details hamper this goal. </p>
+        <p>Java was developed in the early 1990's at Sun Microsystems by James Gosling.</p>
+        <h4> Example</h4>
+        <img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_limit,h_100,w_845/v1562873951/Screenshot_4_ied1yt.png">
+        <h4> The output should be: </h4>
+        <p> Hello, World!</p>
+        <p>Today is July 11, 2019. I am Alive!</p>
+        <hr class="my-3">
+    </div>
+</div>
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

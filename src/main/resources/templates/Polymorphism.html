@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <title>Polymorphism</title>
+    <style>body, html {
+        height: 100%;
+        background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }</style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+        <h3>Polymorphism</h3>
+        <date><i> July 11, 2019</i> </date>
+        <p>Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects
+            are polymorphic since any object will pass the IS-A test for their own type and for the class Object.
+            It is important to know that the only possible way to access an object is through a reference variable.
+            A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.</p>
+        <p> <i>A common example of polymorphism is constructors:</i></p>
+        <img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,w_625/v1562876951/Screenshot_8_recqbt.png">
+        <p> The previous example utilizes the concept of Polymorphism. You can create a new Person object from the Person class with a stated Name, Name and Gender, or Name, Age, and Gender.</p>
+    </div>
+</div>
+<th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

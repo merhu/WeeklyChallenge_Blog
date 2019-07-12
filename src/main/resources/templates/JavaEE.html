@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="/Base :: MetaLinks">...</th:block>
+    <title>What is GitHub/</title>
+    <style>body, html {
+        height: 100%;
+        background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }</style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+
+<!--<div class="container" style="background-color: burlywood">-->
+<div class="container">
+    <br/><br/><br/><br/>
+    <div class="jumbotron">
+        <h3>Java Enterprise</h1>
+        <date><i>July 11, 2019 </i></date>
+        <p class="lead">
+            Enterprise Java refers to Java applications written to meet the needs of enterprises.
+            An enterprise is an organization rather than an individual user. Such organizations include businesses,
+            schools, interest-based user groups, clubs, charities, or governments.
+            Java EE consists of a set of APIs (EJB, JMS, JPA, JTA, JSF etc.)
+            and the application servers (Glassfish, Tomcat, JBoss/WildFly etc.) which implement these APIs (or a part of them).</p>
+        <p> Java EE 8 continues to improve API and programming models needed for today's applications
+            and adds features requested by our world-wide community.</p>
+        <!--<img src="https://www.oracle.com/technetwork/java/javaee/overview/ee8-gfx-final-3905175.jpg">-->
+        <hr class="my-3">
+    </div>
+</div>
+    <th:block th:replace="/Base :: bootstrap">...</th:block>
+</body>
+</html>

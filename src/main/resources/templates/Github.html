@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <!--- needs to be fixed// change to jumbotron--->
+    <title> What is GitHub? </title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Nanum+Gothic&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <style>
+        /*body{*/
+            /*align-content: center;*/
+            /*font-family: "Times New Roman";*/
+            /*!*background-image: url("https://res.cloudinary.com/dgogsuupz/image/upload/v1562870145/Untitled_design_ew2vfi.png");*!*/
+        /*}*/
+        body, html {
+            height: 100%;
+            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562866704/Blog%20Project/screen_2x_rpmlca.jpg");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+<th:block th:replace="/Base :: navbar">...</th:block>
+<div class="container">
+    <br/><br/><br/><br/>
+<div class="jumbotron">
+    <h1 class="display-4"></h1>
+    <p class="lead"></p>
+<br>
+<h3> The "Git" in GitHub</h3>
+<date><i>July 11, 2019 </i></date>
+<br>
+<p> To understand GitHub, you must first have an understanding of Git. Git is an open-source version control
+    system that was started by Linus Trovald—the same person who created Linux.
+</p>
+<p> So, Git is a version control system, but what does that mean?
+    When developers create something (an app, for example), they make constant changes
+    to the code, releasing new versions up to and after the first official (non-beta) release.</p>
+<p>Version control systems keep these revisions straight, storing the modifications in a central repository. This allows developers to easily collaborate, as they can download a new version of the software, make changes, and upload the newest revision. Every developer can see these new changes, download them, and contribute.
+</p>
+<p> The Version control systems keep these revisions straight, and stores the modifications in a central repository.
+    This allows developers to simply collaborate, as they are able to download a new version of the software, make changes,
+    and upload the newest revision. Every developer is able to see these new changes, download them, and contribute.</p>
+<img src="https://res.cloudinary.com/dgogsuupz/image/upload/c_scale,w_565/v1562873410/1_9qX9F9MGsWKfcmgTOR9BPw_t8b0cw.png">
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
