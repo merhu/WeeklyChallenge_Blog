@@ -14,15 +14,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="Style.css">
     <style>
-        body{
-            align-content: center;
-            background-image: url("https://res.cloudinary.com/dgogsuupz/image/upload/v1562877783/Untitled_design_1_cv6w3e.png");
+        body, html {
+            height: 100%;
+            background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/q_100/v1562944007/Blog%20Project/screen_2x_w1hkg4.jpg");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
+        @media (min-width: 576px){
+            .jumbotron {
+                padding: 1rem 2rem;
+            }}
     </style>
 </head>
 <body>
 <th:block th:replace="/Base :: navbar">...</th:block>
+
+<div class="container" id="Bloggers">
+<div class="jumbotron">
+
 <h1 align="center">Meet the Bloggers! </h1>
+</div>
+</div>
 <br>
 <!-- Info about the bloggers-->
 <div class="container">
